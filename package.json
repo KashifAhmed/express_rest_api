@@ -1,0 +1,20 @@
+{
+	"name": "jobseeker-server",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"body-parser": "~1.12.0",
+		"cookie-parser": "~1.3.3",
+		"debug": "~2.1.0",
+		"express": "~4.12.0",
+		"jade": "~1.9.1",
+		"mongoose": "^4.1.0",
+		"morgan": "~1.5.0"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.5"
+	}
+}
